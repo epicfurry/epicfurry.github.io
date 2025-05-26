@@ -1,0 +1,62 @@
+{
+  "name": "JJUTM",
+  "subtitle": "Yeetus",
+  "description": "Maximus",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "website": "",
+  "patreonURL": "",
+  "tintColor": "#6156e2",
+  "featuredApps": [
+    "com.utmapp.UTM"
+  ],
+  "headerURL": "https://i.imgur.com/nhHq9ly.png",
+  "apps": [
+    {
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/tddW8fi.png",
+      "tintColor": "#3470e4",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://alt.getutm.app/utm.ipa",
+          "size": 126200000,
+          "version": "4.6.5",
+          "buildVersion": null,
+          "date": "2025-05-26T11:33:00+02:00",
+          "localizedDescription": null,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "dynamic-codesigning",
+          "com.apple.private.iokit.IOServiceSetAuthorizationID",
+          "com.apple.security.exception.iokit-user-client-class",
+          "com.apple.system.diagnostics.iokit-properties",
+          "com.apple.vm.device-access",
+          "com.apple.private.hypervisor",
+          "com.apple.private.memorystatus"
+        ],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSLocalNetworkUsageDescription": "The virtual machine may access the local network. UTM may also use the network to communicate with local servers.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSLocationAlwaysUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSLocationWhenInUseUsageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device.",
+          "NSMicrophoneUsageDescription": "Permission is required for any virtual machine to record from the microphone."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
