@@ -26,17 +26,41 @@
           "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM.ipa",
           "size": 126200000,
           "version": "4.6.5",
-          "buildVersion": 465,
-          "date": "2025-05-26T10:14:00+02:00",
-          "localizedDescription": null,
-          "minOSVersion": null
+          "date": "2025-05-26T10:14:00+02:00"
         }
       ],
       "appPermissions": {
         "entitlements": [
-          "com.apple.developer.memory.debug",
-          "com.apple.developer.memory.limit 6000",
-          "com.apple.developer.utm.debug"
+         {
+            "name": "get-task-allow"
+          },
+          {
+            "name": "com.apple.developer.kernel.increased-memory-limit"
+          },
+          {
+            "name": "com.apple.developer.kernel.extended-virtual-addressing"
+          },
+          {
+            "name": "dynamic-codesigning"
+          },
+          {
+            "name": "com.apple.private.iokit.IOServiceSetAuthorizationID"
+          },
+          {
+            "name": "com.apple.security.exception.iokit-user-client-class"
+          },
+          {
+            "name": "com.apple.system.diagnostics.iokit-properties"
+          },
+          {
+            "name": "com.apple.vm.device-access"
+          },
+          {
+            "name": "com.apple.private.hypervisor"
+          },
+          {
+            "name": "com.apple.private.memorystatus"
+          }
         ],
         "privacy": {
           "NSAccentColorName": "AccentColor",
