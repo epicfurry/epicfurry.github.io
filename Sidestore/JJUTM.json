@@ -4,15 +4,15 @@
   "description": "Maximus",
   "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
   "website": "https://getutm.com/",
+  "patreonURL": "",
   "tintColor": "#6156e2",
-  "featuredApps": [
-    "com.utmapp.UTM"
-  ],
+  "featuredApps": [],
   "headerURL": "https://i.imgur.com/nhHq9ly.png",
   "apps": [
     {
       "name": "UTM",
       "bundleIdentifier": "com.utmapp.UTM",
+      "marketplaceID": "",
       "developerName": "Example Developer",
       "subtitle": "An awesome app.",
       "localizedDescription": "This is an awesome app only available on AltStore.",
@@ -22,12 +22,12 @@
       "screenshots": [],
       "versions": [
         {
-          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM.ipa",
-          "size": 126200000,
           "version": "4.6.5",
-          "buildVersion": null,
           "date": "2025-05-26T11:33:00+02:00",
           "localizedDescription": null,
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.6.5/UTM.ipa",
+          "size": 126200000,
+          "buildVersion": null,
           "minOSVersion": "16.0"
         }
       ],
