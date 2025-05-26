@@ -14,7 +14,6 @@
     {
       "name": "UTM",
       "bundleIdentifier": "com.utmapp.UTM",
-      "marketplaceID": "",
       "developerName": "Example Developer",
       "subtitle": "An awesome app.",
       "localizedDescription": "This is an awesome app only available on AltStore.",
@@ -24,7 +23,7 @@
       "screenshots": [],
       "versions": [
         {
-          "downloadURL": "https://alt.getutm.app/",
+          "downloadURL": "https://gitlab.com/epicfurry-group/utmhost/-/raw/main/UTM_2.ipa",
           "size": 126200000,
           "version": "4.6.5",
           "buildVersion": null,
